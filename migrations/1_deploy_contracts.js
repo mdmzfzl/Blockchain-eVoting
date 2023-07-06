@@ -1,5 +1,5 @@
 var ECA = artifacts.require("./ECA.sol");
 
-module.exports = function (deployer) {
-  deployer.deploy(ECA, 18);
+module.exports = function(deployer) {
+    deployer.deploy(ECA, 18);
 };
